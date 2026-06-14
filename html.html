@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>KYUU</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">KY<b>UU</b></a>
+  <ul class="nav-links">
+    <li><a href="#koleksi">Koleksi</a></li>
+    <li><a href="#brand">Jenama</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Hubungi</a></li>
+  </ul>
+  <a href="#koleksi" class="nav-btn">Beli Sekarang</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-left">
+    <p class="eyebrow">Koleksi Global 2025</p>
+    <h1>Gaya<br>tanpa <i>Sempadan.</i></h1>
+    <p class="hero-sub">Membawa jenama sukan terkemuka dunia terus ke dalam estetik minimalis KYUU. Kekal kemas, kekal ikonik.</p>
+    <div class="hero-actions">
+      <button class="btn-p" onclick="document.getElementById('koleksi').scrollIntoView({behavior:'smooth'})">Terokai Koleksi</button>
+      <button class="btn-o">Ketahui Lebih</button>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <span class="stat-num">100%</span>
+        <span class="stat-lbl">Original / Tulen</span>
+      </div>
+      <div>
+        <span class="stat-num">3+</span>
+        <span class="stat-lbl">Jenama Gergasi</span>
+      </div>
+      <div>
+        <span class="stat-num">Kini</span>
+        <span class="stat-lbl">Tanpa Animasi</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="orb"></div>
+    <div class="ring"></div>
+    <div class="ring2"></div>
+    <!-- HERO IMAGE: Nike Air Max (Lutsinar & Statik) -->
+    <div class="shoe-img">
+      <img
+        src="https://images.pnghd.io/download/nike-running-shoes-transparent-background-png-10217036070624pwy07kuy82.png"
+        alt="Nike Air Max Utama"
+        loading="eager"
+      />
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span class="scroll-line"></span>
+    Tatal ke bawah
+  </div>
+</div>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <div class="ticker-item">NIKE <span class="ticker-dot"></span></div>
+    <div class="ticker-item">ADIDAS <span class="ticker-dot"></span></div>
+    <div class="ticker-item">NEW BALANCE <span class="ticker-dot"></span></div>
+    <div class="ticker-item">100% ORIGINAL TULEN <span class="ticker-dot"></span></div>
+    <div class="ticker-item">PENGHANTARAN PANTAS <span class="ticker-dot"></span></div>
+    <div class="ticker-item">NIKE <span class="ticker-dot"></span></div>
+    <div class="ticker-item">ADIDAS <span class="ticker-dot"></span></div>
+    <div class="ticker-item">NEW BALANCE <span class="ticker-dot"></span></div>
+    <div class="ticker-item">100% ORIGINAL TULEN <span class="ticker-dot"></span></div>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<section id="koleksi" style="padding-bottom:0">
+  <div class="products-head reveal">
+    <div>
+      <p class="s-eye">Katalog Terpilih</p>
+      <h2 class="s-title">Koleksi <i>Jenama</i></h2>
+    </div>
+    <a href="#" class="see-all">Lihat Semua Jenama →</a>
+  </div>
+</section>
+
+<div class="product-grid">
+  <!-- CARD 1 — NIKE -->
+  <div class="p-card reveal">
+    <div class="p-img-wrap">
+      <img
+        src="1kasut.png"
+        alt="Kasut Malkadok"
+        loading="lazy"
+      />
+    </div>
+    <div class="p-body">
+      <span class="p-tag">Malkadok</span>
+      <h3 class="p-name">Kasut Malkadok</h3>
+      <p class="p-desc">Siri larian ikonik dengan kusyen responsif untuk keselesaan sepanjang hari.</p>
+      <div class="p-foot">
+        <span class="p-price">RM 549</span>
+        <div class="p-arrow">
+          <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARD 2 — ADIDAS -->
+  <div class="p-card reveal" style="transition-delay:.1s">
+    <div class="p-img-wrap">
+      <img
+        src="2kasut.png"
+        alt="Kasut Aniki"
+        loading="lazy"
+      />
+    </div>
+    <div class="p-body">
+      <span class="p-tag" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5)">Adidas</span>
+      <h3 class="p-name">Kasut Aniki</h3>
+      <p class="p-desc">Teknologi pemulangan tenaga Boost terbaik yang digabungkan dengan reka bentuk harian.</p>
+      <div class="p-foot">
+        <span class="p-price">RM 629</span>
+        <div class="p-arrow">
+          <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARD 3 — NEW BALANCE -->
+  <div class="p-card reveal" style="transition-delay:.2s">
+    <div class="p-img-wrap">
+      <img
+        src="3kasut.png"
+        alt="Belen Baru"
+        loading="lazy"
+      />
+    </div>
+    <div class="p-body">
+      <span class="p-tag" style="background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.35);border:1px solid rgba(255,255,255,0.08)">New Balance</span>
+      <h3 class="p-name">Belen Baru</h3>
+      <p class="p-desc">Gabungan klasik estetika "dad shoe" premium dan kestabilan sokongan kaki yang luar biasa.</p>
+      <div class="p-foot">
+        <span class="p-price">RM 699</span>
+        <div class="p-arrow">
+          <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<section class="features-section">
+  <div class="reveal">
+    <p class="s-eye">Jaminan Kami</p>
+    <h2 class="s-title">Membeli tanpa <i>ragu-ragu.</i></h2>
+  </div>
+  <div class="features-grid">
+    <div class="f-item reveal">
+      <div class="f-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <p class="f-name">100% Produk Tulen</p>
+      <p class="f-text">Kami hanya membekalkan kasut original terus daripada pengedar sah jenama.</p>
+    </div>
+    <div class="f-item reveal" style="transition-delay:.1s">
+      <div class="f-icon">
+        <svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+      </div>
+      <p class="f-name">Penghantaran Selamat</p>
+      <p class="f-text">Setiap kotak kasut dibalut dengan lapisan perlindungan tebal bagi mengelakkan kemek.</p>
+    </div>
+    <div class="f-item reveal" style="transition-delay:.2s">
+      <div class="f-icon">
+        <svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+      </div>
+      <p class="f-name">Pertukaran Saiz</p>
+      <p class="f-text">Kasut tersalah saiz? Boleh tukar semula dalam tempoh masa 30 hari dengan mudah.</p>
+    </div>
+    <div class="f-item reveal" style="transition-delay:.3s">
+      <div class="f-icon">
+        <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 0 0 0 0-7.78z"/></svg>
+      </div>
+      <p class="f-name">Paparan Lebih Kemas</p>
+      <p class="f-text">Sistem reka bentuk tanpa animasi untuk navigasi laman web yang lebih stabil.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROMO / BRAND -->
+<section class="promo" id="brand">
+  <div class="promo-left reveal">
+    <p class="s-eye">Sorotan Minggu Ini</p>
+    <h2>Keanggunan<br>Sukan <i>Moden.</i></h2>
+    <p>Lihat bagaimana jenama sukan dunia disuai padankan ke dalam konsep reka bentuk gelap premium kami tanpa sebarang gangguan visual.</p>
+    <button class="btn-p">Ketahui Falsafah Reka Bentuk</button>
+  </div>
+  <div class="promo-right">
+    <!-- PROMO IMAGE: Adidas Statik & Lutsinar -->
+    <div class="promo-img">
+      <img
+        src="https://images.pnghd.io/download/adidas-shoes-transparent-background-png-10217036082464e8k49e0xunm.png"
+        alt="Adidas Promo"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <p class="s-eye" style="justify-content:center">Kekal Terkini</p>
+  <h2>Jangan terlepas<br>koleksi terbaharu.</h2>
+  <p>Daftar untuk mendapat akses awal kepada pelancaran baru dan tawaran eksklusif ahli.</p>
+  <div class="nl-form">
+    <input type="email" placeholder="E-mel anda"/>
+    <button>Daftar</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <a href="#" class="f-brand-logo">KY<b>UU</b></a>
+      <p>Hab reka bentuk digital premium yang membekalkan kurasi kasut global terbaik untuk anda.</p>
+    </div>
+    <div class="f-col">
+      <h5>Jenama</h5>
+      <ul>
+        <li><a href="#">Nike</a></li>
+        <li><a href="#">Adidas</a></li>
+        <li><a href="#">New Balance</a></li>
+        <li><a href="#">Semua Koleksi</a></li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <h5>Syarikat</h5>
+      <ul>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Kerjaya</a></li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <h5>Bantuan</h5>
+      <ul>
+        <li><a href="#">Hubungi</a></li>
+        <li><a href="#">Panduan Saiz</a></li>
+        <li><a href="#">Pemulangan</a></li>
+        <li><a href="#">Soalan Lazim</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bot">
+    <p>© 2025 Kyuu. Hak cipta terpelihara.</p>
+    <div class="socials">
+      <a href="#">IG</a>
+      <a href="#">TT</a>
+      <a href="#">FB</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Fungsi untuk kesan kemunculan (fade-in) semasa skrol dikekalkan
+const io = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})
+},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
